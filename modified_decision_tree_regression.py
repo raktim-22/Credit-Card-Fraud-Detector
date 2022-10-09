@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 
 """## Importing the dataset"""
 
-dataset=pd.read_csv('POSITI~1.CSV')
+dataset=pd.read_csv('POSITIONS.CSV')
 X=dataset.iloc[:,1:2].values
 y=dataset.iloc[:,-1].values
 
